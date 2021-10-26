@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT</title>
+  <link rel="stylesheet" href="./style/all.min.css">
+  <link rel="stylesheet" href="./style/fonts.css">
+  <link rel="stylesheet" href="./style/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid px-4 justify-content-between">
+        <a class="nav__logo" href="#"><img src="./img/nav__logo.png" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <input type="search" class="py-3 px-3 nav__button mt-sm-0 mt-3" placeholder="Search Rolling">
+        <div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active me-3" aria-current="page" href="#">Explore</a>
+              <a class="nav-link active me-3" href="#">Activity</a>
+              <a class="nav-link active me-3" href="#">Feed</a>
+              <a class="nav-link active me-3" href="#">Bids</a>
+              <a class="nav-link active mx-4" href="#"><img src="./img/black.png" alt=""></a>
+              <a class="connect__button p-2" href="#" type="button">Connect Wallet</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </nav>
+
+    <div class="container-fluid px-4 mt-5">
+      <div class="row">
+        <div class="col-xl-8 col-12">
+          <div class="header__img">
+            <img class="w-100 img-fluid" src="./img/img1.png" alt="" style="max-height: 497px; height: 100%;">
+          </div>
+        </div>
+        <div class="col-xl-4 col-12">
+          <div class="header__left">
+            <h4 class="left__title1">The circle's pristine <br> cleanliness</h4>
+            <h6 class="ava__title">
+              <img class="me-2 ava__text" style="width: 24px;height: 24px;" src="./img/ava1.png" alt="">Tung
+              Tran
+            </h6>
+            <div class="d-flex justify-content-evenly mt-5 flex-wrap">
+              <div class="bid">
+                <h6 class="bid__title1">Current Bid</h6>
+                <h5 class="bid__title2">0.85 ETH</h5>
+                <h6 class="bid__title3">$2,169.42</h6>
+              </div>
+              <div class="info__line">
+
+              </div>
+              <div class="w-50">
+                <h6 class="time__title">Auction ends in</h6>
+                <div class="d-flex justify-content-between flex-wrap">
+                  <div class="media__number">
+                    <h6 class="number">3</h6>
+                    <h6 class="timer">Hours</h6>
+                  </div>
+                  <div class="media__number">
+                    <h6 class="number">16</h6>
+                    <h6 class="timer">Minutes</h6>
+                  </div>
+                  <div class="media__number">
+                    <h6 class="number">58</h6>
+                    <h6 class="timer">Seconds</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <button class="left__button border-0 py-3 text-white mx-auto" type="button">Place a
+                bid</button>
+            </div>
+            <h6 class="left__title text-center mt-3">View artwork</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section__featured" style="margin-bottom: 90px;">
+      <div class="container-fluid px-4">
+        <h2 class="auctions__title">Live auctions 🔥 </h2>
+        <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-1">
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img2.png" alt="">
+                    <button type="button" class="button__time px-3 py-2">
+                      01:27:46 left
+                    </button>
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Soft Curves</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img3.png" alt="">
+                    <button type="button" class="button__time px-3 py-2">
+                      01:27:46 left
+                    </button>
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">The mystery of the black square</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava3.png" alt="">
+                      <h6 class="mt-auto howard__title">Jenny Wilson</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.24 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img4.png" alt="">
+                    <button type="button" class="button__time px-3 py-2">
+                      02:02:13 left
+                    </button>
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">Pink Cloud ⛅️</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava4.png" alt="">
+                      <h6 class="mt-auto howard__title">Floyd Miles</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.3 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img5.png" alt="">
+                    <button type="button" class="button__time px-3 py-2">
+                      02:14:02 left
+                    </button>
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Ethereum</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava5.png" alt="">
+                      <h6 class="mt-auto howard__title">Jane Cooper</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.12 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__live" style="margin-bottom: 36px;">
+      <div class="container-fluid px-4">
+        <h2 class="auctions__title">Featured ✨ </h2>
+        <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-1">
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img6.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Soft Curves</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img7.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">The mystery of the black square</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img8.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">Pink Cloud ⛅️</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img9.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Ethereum</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__untraced" style="margin-bottom: 36px;">
+      <div class="container-fluid px-4">
+        <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-1">
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img10.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Soft Curves</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img11.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">The mystery of the black square</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img12.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">Pink Cloud ⛅️</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img13.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Ethereum</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__anonym" style="margin-bottom: 70px;">
+      <div class="container-fluid px-4">
+        <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-1">
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img14.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Soft Curves</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img15.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">The mystery of the black square</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img16.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">Pink Cloud ⛅️</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="mt-xl-0 mt-5">
+            <div class="col">
+              <div class="main__item">
+                <div>
+                  <div class="auctions__block">
+                    <img src="./img/img17.png" alt="">
+
+                  </div>
+                </div>
+
+                <div class="px-3 py-3 ">
+                  <h4 class="title__js">3D Ethereum</h4>
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-end">
+                      <img class="ava-img me-1 mb-2" style="width: 24px;height: 24px;" src="img/ava2.png" alt="">
+                      <h6 class="mt-auto howard__title">Esther Howard</h6>
+                    </div>
+                    <div class="mt-5">
+                      <h6 class="howard__title">Current Bid</h6>
+                      <h5 class="price__title">0.85 ETH</h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container d-flex">
+      <button type="button" class="px-5 py-2 pb-1 more__button mx-auto">Load More</button>
+    </div>
+    <div class="section__top mb-5">
+      <div class="container-fluid px-4">
+        <h2 class="top__title mb-4">Top Creators</h2>
+        <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-1">
+          <div class="col mt-xl-0 mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img18.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava13.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Tung Tran <img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">3K Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col mt-xl-0 mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img19.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava6.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Wade Warren<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">8k Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col mt-xl-0 mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img20.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava7.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Arlene McCoy<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">650 Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-xl-0 mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img21.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava8.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Dianne Russell<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">1K Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section__top" style="margin-bottom: 70px;">
+      <div class="container-fluid px-4">
+        <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-1">
+          <div class="col mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img18.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava9.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Savannah Nguyen<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">238 Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img19.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava10.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Jenny Wilson<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">64 Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img20.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava11.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Brooklyn Simmons<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">2K Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-lg-3 mt-4">
+            <div>
+              <div class="top__block">
+                <div>
+                  <img class="w-100" src="./img/img21.png" alt="">
+                </div>
+                <div class="py-3 px-3">
+                  <div class="d-flex">
+                    <div>
+                      <img class="ava-img" style="margin-right: 16px;" src="./img/ava12.png" alt="">
+                    </div>
+                    <div>
+                      <h6 class="top__block-title">Theresa Webb<img src="./img/galch.png" alt=""></h6>
+                      <p class="top__text" style="margin-bottom: 76px;">Bad Artist, NFT Enthusiast, Metaverse Innovator
+                        Supporting #bitcoin since 2012.</p>
+                      <div class="d-flex align-items-center">
+                        <h3 class="followers__title me-3">127 Followers</h3>
+                        <button class="follow__button">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex">
+      <button type="button" class="px-5 py-2 pb-1 creators__button mx-auto">View All Creators</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container-fluid ps-4 py-4 footer__content">
+      <div class="row">
+        <div class="col-xl-4 col-lg-6">
+          <div class="div">
+            <h4 class="footer__title text-white">Get the latest Rolling updates</h4>
+            <div class="post__div mt-3">
+              <input type="email" placeholder="Enter your email" class="footer__input py-3 ps-3">
+              <button type="button" class="py-3 px-3 subs__button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 mt-lg-0 mt-4">
+          <div>
+            <ul>
+              <h5 class="text-white title__list mb-3">Rolling</h5>
+              <li class="mb-2"><a href="#" class="footer__link">Explore</a></li>
+              <li class="mb-2"><a href="#" class="footer__link">Blog</a></li>
+              <li class="mb-2"><a href="#" class="footer__link">About us</a></li>
+              <li class="mb-2"><a href="#" class="footer__link">Become a partner</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4 col-12 mt-xl-0 mt-4">
+          <div>
+            <ul>
+              <h5 class="text-white title__list mb-3">Community</h5>
+              <li class="mb-2"><a href="#" class="footer__link">Community Guidelines</a></li>
+              <li class="mb-2"><a href="#" class="footer__link">Roll Token</a></li>
+              <li class="mb-2"><a href="#" class="footer__link">Discussion</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid px-5 pb-4">
+      <div class="footer__line"></div>
+      <div class="d-flex justify-content-between mt-4 flex-wrap">
+        <div class="d-flex flex-wrap">
+          <img class="me-5" src="img/footer__logo.png" alt="">
+          <h6 class="footer__title2">Terms of Service <span>Privacy</span></h6>
+
+        </div>
+        <div>
+          <a href="https://instagram.com/alijon__f"><i class="fab fa-instagram footer__icon me-3"></i></a>
+          <i class="fab fa-twitter footer__icon me-3"></i>
+          <a href="https://t.me/alijon__pro"><i class="fab fa-telegram-plane footer__icon me-3"></i></a>
+          <i class="fab fa-youtube footer__icon me-3"></i>
+          <img src="./img/kino.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="./script/bootstrap.bundle.min.js"></script>
+  <script src="./javascript/script.js"></script>
+</body>
+
+</html>
